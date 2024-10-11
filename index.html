@@ -1,8 +1,206 @@
-<html>
-  <head>
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Brian Chen, a full-stack software developer and engineering undergraduate seeking internship opportunities.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Brian Chen - SWE | Cambridge '26</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 1.1em;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-top: 10px;
+        }
+
+        section {
+            width: 80%;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 5px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 3px;
+            margin-top: 15px;
+        }
+
+        .content {
+            margin-bottom: 30px;
+        }
+
+        .content p {
+            font-size: 1em;
+            margin: 10px 0;
+        }
+
+        .content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .content ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            background-color: #333;
+            color: #fff;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .date {
+            font-style: italic;
+            color: #555;
+            float: right;
+        }
+        
+        .social-links {
+            margin-top: 10px;
+        }
+        
+        .social-links a {
+            margin: 0 10px;
+            color: #FFF;
+            font-size: 1.5em;
+            text-decoration: none;
+        }
+        .social-links a:hover {
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Brian Chen</h1>
+        <p>Trinity College Cambridge '26 | Software Engineer</p>
+        <img src="avatar.jpg" alt="Brian Chen's Profile Picture">
+        <div class="social-links">
+            <a href="https://github.com/differental" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/brianchen07" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:hello@brian-chen.org">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </header>
+
+    <section id="intro">
+        <h2>Introduction</h2>
+        <div class="content">
+            <p>Hello! I'm Brian Chen, a second-year engineering undergraduate at the University of Cambridge, specializing in full-stack development. I'm seeking internship opportunities where I can apply my skills in backend and frontend development. I have strong experience in building scalable web applications and leveraging cloud technologies.</p>
+            <p>Skills: Proficient in C/C++, Python, TypeScript, React, and HTML/CSS. Experienced with AWS, Azure, and GCP. Knowledgeable in data structures, algorithms, and blockchain technology.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="content">
+            <ul>
+                <li><strong>BA Engineering</strong> - Trinity College, University of Cambridge <span class="date">2023-2026</span></li>
+                <p>First Class in Year 1, Top 3rd percentile, Rank 11/323.</p>
+                <p>Modules: Information; Maths & Computing; Electrical; Mechanical; Fluids & Thermodynamics; Structures; Materials.</p>
+            </ul>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Internship Experience</h2>
+        <div class="content">
+            <ul>
+                <li><strong>Roku, Inc.</strong> - Software Engineer Intern <span class="date">July-September 2024</span></li>
+                <p>Collaborated with two full-time engineers during the 12-week internship. Contributed to Python and TypeScript codebases, developed production middleware, and updated frontend based on UI/UX designs. Delivered a scalable solution to automate content generation and verification using large language models, impacting millions of users.</p>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Independent Projects</h2>
+        <div class="content">
+            <ul>
+                <li><strong>Project Openify</strong> - Large Language Models and Blockchain Integration <span class="date">July 2024</span></li>
+                <p>Developed a frontend and backend in 12 hours. Integrated Polkadot blockchain and OpenAI, creating a system that handles transactions and account queries. Won first place in a hackathon, competing against 60 projects.</p>
+
+                <li><strong>Project ReceiVe</strong> - Web3 dApp <span class="date">March 2024</span></li>
+                <p>Served as the lead full-stack developer, completing blockchain integration and building frontend/middleware in 24 hours. Project was a finalist (top 7 out of 40 projects).</p>
+
+                <li><strong>Project EasyPass</strong> - Machine Learning and Cloud Computing <span class="date">February 2024</span></li>
+                <p>Trained an open-source large language model (LLM) using 1000 university exam questions. Built a backend system that processed user uploads and generated exam questions for self-study purposes.</p>
+
+                <li><strong>Project EDCal</strong> - Workflow Automation <span class="date">December 2023</span></li>
+                <p>Created and deployed web applications that assist students in filtering events and cleaning departmental lecture and lab calendars.</p>
+            </ul>
+        </div>
+    </section>
+
+    <section id="publication">
+        <h2>Publication</h2>
+        <div class="content">
+            <ul>
+                <p>B Chen, C Xu, W Cai, and Y Xia. <i>Narrowing Down the Secrets of the Internet - a Review of Privacy Leakages and Prevention Methods</i>, Advances in Social Science, Education and Humanities Research, peer-reviewed (2023), 87-95.</p>
+            </ul>
+        </div>
+    </section>
+
+    <section id="interests">
+        <h2>Interests</h2>
+        <div class="content">
+            <ul>
+                <li><strong>Rowing</strong> - Men’s Third Boat (Easter 2024), First and Third Trinity Boat Club. Competed in May Bumps race.</li>
+                <li><strong>Piano</strong> - ABRSM Grade 8 at age 9. Prizewinner in multiple national competitions.</li>
+                <li><strong>Running</strong> - Beginner, participated in 3 races with steady improvement.</li>
+                <li><strong>Chess</strong> - Intermediate player (~1600), runner-up at a provincial tournament.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Brian Chen. All rights reserved.</p>
+    </footer>
+
+</body>
 </html>
